@@ -14,4 +14,4 @@
 .cxx
 local.properties
 maps.properties
-/.app/src/main/java/ru/netology/maps/Api/MapsApiKey.kt
+/.app/src/main/java/ru/netology/maps/api/MapsApiKey.kt
