@@ -9,10 +9,12 @@ import ru.netology.maps.R
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
+    private val API_KEY: String = "00000000-0000-0000-0000-000000000000"
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        MapKitFactory.setApiKey("00000000-0000-0000-0000-000000000000")
+        MapKitFactory.setApiKey(API_KEY)
         MapKitFactory.initialize(this)
 
     }
