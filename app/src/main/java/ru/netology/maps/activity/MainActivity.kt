@@ -3,6 +3,7 @@ package ru.netology.maps.activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.yandex.mapkit.MapKitFactory
+import com.yandex.maps.mobile.BuildConfig
 import dagger.hilt.android.AndroidEntryPoint
 import ru.netology.maps.R
 
